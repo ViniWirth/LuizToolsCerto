@@ -1,0 +1,184 @@
+#logo{
+    width: 10vw;
+}
+
+body{
+    background: rgb(162,23,23);
+    background: linear-gradient(151deg, rgba(162,23,23,1) 0%, rgba(113,65,40,1) 25%, rgba(84,23,0,1) 33%, rgba(6,7,17,1) 50%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #09040F;
+    overflow-x: hidden;
+}
+
+.container{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.textNavbar{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+#inicio{
+    color: orange;
+    text-decoration: underline;
+}
+
+.textoPrincipal{
+    color: white;
+    font-size: 74.4px;
+    font-weight: 700;
+    margin-left: 5vw;
+}
+
+#meio{
+    margin-top: 5vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    padding: 0;
+}
+
+.textoSecundario{
+    color: #FF9659;
+    font-size: 22px;
+    margin-left: 5vw;
+    font-weight: 400;
+}
+
+#botaoInscricao{
+    width: 15vw;
+    height: 3.5vw;
+    background-color: #D93600;
+    margin-left: 6vw;
+}
+
+.headerTop{
+    margin-right: 4vw;
+    margin-left: 4vw;
+    margin-top: 4vw;
+}
+
+#texto2023{
+    color: #FF9659;
+    font-size: 16.36px;
+    font-weight: 600;
+    margin-left: 3vw;
+}
+
+.video{
+    margin-top: 7.2vw;
+}
+
+.botaoETexto{
+    margin-left: 5vw;
+}
+
+.container-cursos{
+    margin-top: 13vw;
+}
+
+.textoTorne{
+    margin-left: 11vw;
+    color: #D73802;
+    font-weight: 700;
+}
+
+h2{
+    margin-left: 11vw;
+    color: white;
+    font-size: 44.64px;
+    font-weight: 680;
+}
+
+.textoJavascript{
+    color: #FF9659;
+    font-size: 20.8px;
+    font-weight: 500;
+    margin-left:11vw;
+    margin-right: 13vw;
+}
+
+.cards{
+    margin-top: 3vw;
+    margin-left: 11vw;
+    margin-right: 11vw;
+}
+
+.cardsBaixo{
+    margin-top: 1vw;
+}
+
+.card{
+    background-color: #181628;
+    border: solid 0.1vw #28263A;
+    padding: 1.5vw;
+    width: 25vw;
+    
+}
+
+.icon{
+    width: 2.5vw;
+    background-color: #2B2B2B;
+    border-radius: 100000vw;
+    margin-left: 2vw;
+    
+}
+
+.titulo{
+    color: white;
+    margin-top: 1vw;
+    font-weight: 700;
+    font-size: 25.2px;
+}
+
+.descricao{
+    color: #FF9651;
+    font-weight: 630;
+}
+
+.nav-item{
+    padding: 1vw;
+}
+
+@media (max-width: 992px) {
+
+    .videoReal{
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .botaoETexto{
+        margin-top: 4vw;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #botaoInscricao{
+        height: 8vw;
+        width: 80%;
+        margin: 0; 
+    }
+
+    #texto2023{
+        margin-left: 0vw;
+    }
+
+    .hamburg{
+        width: 40px;
+    }
+
+    #logo{
+        width: 25vw;
+    }
+
+    .icon{
+        width: 10vw;
+    }
+  }
